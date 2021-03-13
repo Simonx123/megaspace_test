@@ -16,3 +16,12 @@ resource "aws_s3_bucket" "simonhyclouds4" {
   }
 
 }
+
+resource "aws_s3_bucket" "simonhyclouds5" {
+  bucket = "simonhyloud0997"
+  acl = "private"
+  tags = {
+    Department = "HR"
+  }
+
+}
